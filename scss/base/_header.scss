@@ -1,0 +1,45 @@
+/*Header*/
+
+header{
+        nav{
+            background-image: url(../src/fondos/marble-stone-texture.jpg);   
+               div{ 
+                    a{
+                        .outbox-logo {filter: brightness(1.1);mix-blend-mode: multiply;margin-left: 20px;
+                        &:hover{transform: scale(1.5);transition: all 1s;}}
+                    }
+                          div{display: flex;
+                              justify-content: space-around;
+                              @include tamanos (40%);
+                                div{
+                                     a{&:hover {transform: scale(1.2);}}
+                                }
+                                form{
+                                    
+                                        .hover-button{
+                                            @extend %button;
+                                           
+
+                                               }
+                                        
+                                            
+                                        }
+                                    
+                                    
+                            }
+                                
+                                
+                    }          
+                    
+        }
+
+                                    
+}
+
+                            
+                          
+
+              
+        
+
+            

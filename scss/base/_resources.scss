@@ -1,0 +1,31 @@
+/*Resources.html*/
+
+/*Section 1*/
+.section-resource1{
+  background-color: $bg-grey1;
+      .webinar{ 
+        text-align: center;
+        text-decoration: underline;
+      }
+      .webinarp{  
+          text-align: center;
+      }
+}
+
+/*Section 2*/
+
+.section-resource2{ 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 300px);
+  .grid{  
+    border: 1px solid black;
+  }
+  .article-resource2, .article-resource4, .article-resource6{
+    background-color: $bg-grey1;  
+
+  }
+  .article-resource1, .article-resource3, .article-resource5{
+    background-color: $bg-grey2;
+  }
+}

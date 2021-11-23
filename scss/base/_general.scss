@@ -1,0 +1,21 @@
+/*General*/
+
+* {
+  margin: 0;
+  
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.body {
+  font-family: "Noto Sans Mono", monospace;
+  font-size: 14px;
+  letter-spacing: 4px;
+}
+.chatbot {
+  text-align: end;
+  position: fixed;
+  bottom: 80px;
+  right: 0px;
+}
