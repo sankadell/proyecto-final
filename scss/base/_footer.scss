@@ -14,7 +14,7 @@
        .socialMedia{
                 display: flex;
                 justify-content: flex-end;      
-                .media{ @include tamanos (70%);
+                .media{ @include tamanos (20%);
                         display: flex;
                         justify-content: space-between;
                         li{

@@ -1,0 +1,260 @@
+@media screen and (max-width: 480px) {
+  .lista {
+    display: flex;
+    flex-direction: column; } }
+/*Button y hover*/
+header nav div div form .hover-button, .costumer div button {
+  background-color: white;
+  border: 1px solid black;
+  color: black; }
+  header nav div div form .hover-button:hover, .costumer div button:hover {
+    background-color: #ff7600; }
+
+/*Flex center*/
+.title, .support div .flex-column {
+  display: flex;
+  justify-content: center; }
+
+/*General*/
+* {
+  margin: 0; }
+
+html {
+  scroll-behavior: smooth; }
+
+.body {
+  font-family: "Noto Sans Mono", monospace;
+  font-size: 14px;
+  letter-spacing: 4px; }
+
+.chatbot {
+  text-align: end;
+  position: fixed;
+  bottom: 80px;
+  right: 0px; }
+
+/*Header*/
+header nav {
+  background-image: url(../src/fondos/marble-stone-texture.jpg); }
+  header nav div a .outbox-logo {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    margin-left: 20px; }
+    header nav div a .outbox-logo:hover {
+      transform: scale(1.5);
+      transition: all 1s; }
+  header nav div div {
+    display: flex;
+    justify-content: space-around; }
+    header nav div div div a:hover {
+      transform: scale(1.2); }
+
+/*Footer*/
+.footer {
+  background-image: url(../src/fondos/marble-stone-texture.jpg); }
+  .footer a .width-logo-footer {
+    width: 10%;
+    margin-left: 3%; }
+  .footer a .outbox-logo {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    margin-left: 20px; }
+    .footer a .outbox-logo:hover {
+      transform: scale(1.5);
+      transition: all 1s; }
+  .footer .socialMedia {
+    display: flex;
+    justify-content: flex-end; }
+    .footer .socialMedia .media {
+      width: 20%;
+      display: flex;
+      justify-content: space-between; }
+      .footer .socialMedia .media li {
+        list-style: none; }
+  .footer .margin-footer {
+    margin-left: 2%; }
+  .footer .privacyTerms {
+    text-align: end; }
+
+/*index.html*/
+/*seccion 1.................*/
+.section1 {
+  padding: 50px;
+  background-color: #968c83; }
+
+.outboxh1 {
+  text-align: center; }
+
+.animacion:hover {
+  animation: animacionCambiarColor 2s; }
+
+@keyframes animacionCambiarColor {
+  from {
+    background: #d6d2c4; }
+  to {
+    background: #968c83; } }
+/*section 2.............................*/
+.section2 {
+  background-color: #d6d2c4;
+  display: flex;
+  justify-content: space-around; }
+
+.div-flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-around; }
+
+.h2-section2 {
+  display: flex;
+  align-items: center; }
+
+/*seccion 3*/
+.section3 {
+  background-color: #968c83;
+  height: 200px;
+  display: flex;
+  align-items: center; }
+
+.imagesItem {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-around; }
+  .imagesItem li img {
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out; }
+    .imagesItem li img:hover {
+      -webkit-filter: blur(0);
+      filter: blur(0); }
+
+/* Company.html*/
+/*section 1 */
+.compania {
+  background-color: #968c83; }
+
+/* section 2*/
+.gente-valores {
+  background-color: #d6d2c4; }
+  .gente-valores h2 {
+    text-align: center;
+    margin-bottom: 10px; }
+  .gente-valores P {
+    margin-left: 10px; }
+  .gente-valores aside img {
+    position: relative;
+    top: 20px;
+    left: 20px; }
+
+/* section 3*/
+.somos-outbox {
+  background-color: #968c83; }
+  .somos-outbox h2 {
+    padding-top: 30px;
+    text-align: center; }
+
+/* section 4*/
+.que-valoramos {
+  background-color: #d6d2c4; }
+  .que-valoramos .companyh2 {
+    text-align: center;
+    margin-bottom: 10px; }
+  .que-valoramos .flex-company {
+    display: flex; }
+
+/*Contactus.html*/
+/*Section 1*/
+.title {
+  background: #ff7600;
+  height: 100px;
+  color: blue;
+  align-items: center; }
+
+/*Section 2*/
+.costumer {
+  padding: 20px; }
+
+/*Section 3*/
+.support h2 {
+  text-align: center; }
+.support div .border-radius {
+  border: 1px solid red; }
+
+/*Section 4*/
+.our-location {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  color: #cc5e00;
+  text-align: center; }
+
+.locations .flex-location {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+/* Contract.html*/
+/*Section 1*/
+.sec1-smartContracts {
+  background-color: #968c83;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid black; }
+
+/*Section 2*/
+.sec2-whatAreSmartcontracts {
+  background-color: #d6d2c4; }
+
+/*Section 3*/
+.sec3-type {
+  background-color: #968c83; }
+  .sec3-type h2 {
+    text-align: center; }
+
+/* Productos.html*/
+/*Section 1*/
+.section-productos1 {
+  background-color: #968c83; }
+
+/*Section 2*/
+.section-productos2 {
+  background-color: #d6d2c4;
+  text-align: end; }
+  .section-productos2 .article-productos2 {
+    text-align: justify; }
+
+/*Section 3*/
+.section-productos3 {
+  background-color: #968c83; }
+
+/*Section 4*/
+.section-productos4 {
+  background-color: #d6d2c4;
+  text-align: end; }
+  .section-productos4 .article-productos4 {
+    text-align: justify; }
+
+/*Resources.html*/
+/*Section 1*/
+.section-resource1 {
+  background-color: #968c83; }
+  .section-resource1 .webinar {
+    text-align: center;
+    text-decoration: underline; }
+  .section-resource1 .webinarp {
+    text-align: center; }
+
+/*Section 2*/
+.section-resource2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 300px); }
+  .section-resource2 .grid {
+    border: 1px solid black; }
+  .section-resource2 .article-resource2, .section-resource2 .article-resource4, .section-resource2 .article-resource6 {
+    background-color: #968c83; }
+  .section-resource2 .article-resource1, .section-resource2 .article-resource3, .section-resource2 .article-resource5 {
+    background-color: #d6d2c4; }
+
+/*# sourceMappingURL=style.css.map */
