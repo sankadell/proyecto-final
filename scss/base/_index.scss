@@ -3,77 +3,65 @@
 /*seccion 1.................*/
 
 .section1 {
- 
-  padding: 50px;
-  background-color: $bg-grey1;
-  
-}
-
-.outboxh1{
-  text-align: center;
-}
-
-.animacion:hover {
-  animation: animacionCambiarColor 2s;
-}
-@keyframes animacionCambiarColor {
+    padding: 50px;
+    background-color: $bg-grey1;
+    .outboxh1{
+      text-align: center;
+    }
+  }
+  .animacion:hover {
+   animation: animacionCambiarColor 2s;
+  }
+  @keyframes animacionCambiarColor {
   from {
-    background: #d6d2c4;
+  background: #d6d2c4;
   }
   to {
-    background: #968c83;
+  background: #968c83;
   }
 }
+  
+  
 
 /*section 2.............................*/
 
 .section2 {
   background-color: $bg-grey2;
-  display: flex;
-  justify-content: space-around;
+          .div-flex {
+         width: 100%;
+         display: flex;
+         justify-content: space-around;
+              .h2-section2 {
+              display: flex;
+              align-items: center;
+              }
+
+        }
 }
 
 
-.div-flex {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-.h2-section2 {
-  display: flex;
-
-  align-items: center;
-}
 
 /*seccion 3*/
 
 .section3{
   background-color: $bg-grey1;
-  height: 200px;
-  display: flex;
-  align-items: center;
+  padding: 10px;
+
+        .transition {
+                    
+                    -webkit-filter: blur(3px);
+                    filter: blur(3px);
+                    -webkit-transition: 0.3s ease-in-out;
+                    transition: 0.3s ease-in-out;
+                        &:hover{
+                        -webkit-filter: blur(0);
+                        filter: blur(0);
+                        
+                        }
+                  
+                  }
+            
+
 }
 
-.imagesItem {
-  list-style: none;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  
-            li{
-             
-                img {
-                  
-                  -webkit-filter: blur(3px);
-                  filter: blur(3px);
-                  -webkit-transition: 0.3s ease-in-out;
-                  transition: 0.3s ease-in-out;
-                      &:hover{
-                      -webkit-filter: blur(0);
-                      filter: blur(0);
-                      
-                      }
-                
-                }
-            }
-}
+

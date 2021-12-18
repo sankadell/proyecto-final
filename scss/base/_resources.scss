@@ -3,6 +3,7 @@
 /*Section 1*/
 .section-resource1{
   background-color: $bg-grey1;
+  padding-bottom: 10px;
       .webinar{ 
         text-align: center;
         text-decoration: underline;
@@ -27,5 +28,14 @@
   }
   .article-resource1, .article-resource3, .article-resource5{
     background-color: $bg-grey2;
+  }
+}
+
+.section-resource3{
+  background-color: $bg-grey2;
+  
+  .margin {
+    
+    margin-bottom: 80px;
   }
 }

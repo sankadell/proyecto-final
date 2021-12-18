@@ -1,3 +1,4 @@
+/* Mobile */
 @media screen and (max-width: 480px) {
   .lista {
     display: flex;
@@ -81,9 +82,8 @@ header nav {
 .section1 {
   padding: 50px;
   background-color: #968c83; }
-
-.outboxh1 {
-  text-align: center; }
+  .section1 .outboxh1 {
+    text-align: center; }
 
 .animacion:hover {
   animation: animacionCambiarColor 2s; }
@@ -95,44 +95,33 @@ header nav {
     background: #968c83; } }
 /*section 2.............................*/
 .section2 {
-  background-color: #d6d2c4;
-  display: flex;
-  justify-content: space-around; }
-
-.div-flex {
-  width: 100%;
-  display: flex;
-  justify-content: space-around; }
-
-.h2-section2 {
-  display: flex;
-  align-items: center; }
+  background-color: #d6d2c4; }
+  .section2 .div-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-around; }
+    .section2 .div-flex .h2-section2 {
+      display: flex;
+      align-items: center; }
 
 /*seccion 3*/
 .section3 {
   background-color: #968c83;
-  height: 200px;
-  display: flex;
-  align-items: center; }
-
-.imagesItem {
-  list-style: none;
-  width: 100%;
-  display: flex;
-  justify-content: space-around; }
-  .imagesItem li img {
+  padding: 10px; }
+  .section3 .transition {
     -webkit-filter: blur(3px);
     filter: blur(3px);
     -webkit-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out; }
-    .imagesItem li img:hover {
+    .section3 .transition:hover {
       -webkit-filter: blur(0);
       filter: blur(0); }
 
 /* Company.html*/
 /*section 1 */
 .compania {
-  background-color: #968c83; }
+  background-color: #968c83;
+  padding-bottom: 10px; }
 
 /* section 2*/
 .gente-valores {
@@ -149,7 +138,8 @@ header nav {
 
 /* section 3*/
 .somos-outbox {
-  background-color: #968c83; }
+  background-color: #968c83;
+  padding-bottom: 10px; }
   .somos-outbox h2 {
     padding-top: 30px;
     text-align: center; }
@@ -158,8 +148,7 @@ header nav {
 .que-valoramos {
   background-color: #d6d2c4; }
   .que-valoramos .companyh2 {
-    text-align: center;
-    margin-bottom: 10px; }
+    text-align: center; }
   .que-valoramos .flex-company {
     display: flex; }
 
@@ -192,7 +181,10 @@ header nav {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  padding: 30px; }
+  .locations .flex-location .image-padding {
+    padding: 5px; }
 
 /* Contract.html*/
 /*Section 1*/
@@ -204,11 +196,13 @@ header nav {
 
 /*Section 2*/
 .sec2-whatAreSmartcontracts {
-  background-color: #d6d2c4; }
+  background-color: #d6d2c4;
+  padding-bottom: 10px; }
 
 /*Section 3*/
 .sec3-type {
-  background-color: #968c83; }
+  background-color: #968c83;
+  padding-bottom: 10px; }
   .sec3-type h2 {
     text-align: center; }
 
@@ -238,7 +232,8 @@ header nav {
 /*Resources.html*/
 /*Section 1*/
 .section-resource1 {
-  background-color: #968c83; }
+  background-color: #968c83;
+  padding-bottom: 10px; }
   .section-resource1 .webinar {
     text-align: center;
     text-decoration: underline; }
@@ -256,5 +251,10 @@ header nav {
     background-color: #968c83; }
   .section-resource2 .article-resource1, .section-resource2 .article-resource3, .section-resource2 .article-resource5 {
     background-color: #d6d2c4; }
+
+.section-resource3 {
+  background-color: #d6d2c4; }
+  .section-resource3 .margin {
+    margin-bottom: 80px; }
 
 /*# sourceMappingURL=style.css.map */
